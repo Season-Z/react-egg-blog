@@ -1,0 +1,38 @@
+{
+  "chunk/0.js": "/public/js/chunk/0.js",
+  "chunk/1.js": "/public/js/chunk/1.js",
+  "admin.css": "/public/css/admin.css",
+  "admin.js": "/public/js/chunk/admin.js",
+  "common.js": "/public/js/chunk/common.js",
+  "login.css": "/public/css/login.css",
+  "login.js": "/public/js/chunk/login.js",
+  "runtime.js": "/public/js/runtime.js",
+  "img/avatar.jpg": "/public/img/avatar.jpg",
+  "deps": {
+    "login.js": {
+      "js": [
+        "/public/js/runtime.js",
+        "/public/js/chunk/common.js",
+        "/public/js/chunk/login.js"
+      ],
+      "css": [
+        "/public/css/login.css"
+      ]
+    },
+    "admin.js": {
+      "js": [
+        "/public/js/runtime.js",
+        "/public/js/chunk/common.js",
+        "/public/js/chunk/admin.js"
+      ],
+      "css": [
+        "/public/css/admin.css"
+      ]
+    }
+  },
+  "info": {
+    "publicPath": "/public/",
+    "buildPath": "public",
+    "mapped": true
+  }
+}

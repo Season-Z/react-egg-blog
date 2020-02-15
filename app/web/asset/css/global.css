@@ -1,0 +1,27 @@
+@import './normalize.css';
+@import './bootstrap.css';
+
+body {
+  font-family: 'Hiragino Sans GB', 'Microsoft YaHei', '微软雅黑', Georgia,
+    tahoma, arial, simsun, '宋体';
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  font-family: 'Hiragino Sans GB', 'Microsoft YaHei', '微软雅黑', Georgia,
+    tahoma, arial, simsun, '宋体';
+}
+
+.ant-divider-horizontal.ant-divider-with-text-left::before {
+  width: 0 !important;
+}

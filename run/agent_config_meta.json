@@ -1,0 +1,347 @@
+{
+  "siteFile": {
+    "/favicon.ico": "/Users/zhouxishun/Desktop/workspace/easywebpack/config/config.default.js"
+  },
+  "logger": {
+    "consoleLevel": "/Users/zhouxishun/Desktop/workspace/easywebpack/config/config.default.js",
+    "dir": "/Users/zhouxishun/Desktop/workspace/easywebpack/config/config.default.js",
+    "encoding": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/egg/config/config.default.js",
+    "env": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/egg/config/config.default.js",
+    "level": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/egg/config/config.default.js",
+    "disableConsoleAfterReady": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/egg/config/config.default.js",
+    "outputJSON": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/egg/config/config.default.js",
+    "buffer": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/egg/config/config.default.js",
+    "appLogName": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/egg/config/config.default.js",
+    "coreLogName": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/egg/config/config.default.js",
+    "agentLogName": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/egg/config/config.default.js",
+    "errorLogName": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/egg/config/config.default.js",
+    "coreLogger": {
+      "consoleLevel": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/egg/config/config.local.js"
+    },
+    "allowDebugAtProd": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/egg/config/config.default.js"
+  },
+  "static": {
+    "prefix": "/Users/zhouxishun/Desktop/workspace/easywebpack/config/config.default.js",
+    "dir": "/Users/zhouxishun/Desktop/workspace/easywebpack/config/config.default.js",
+    "maxAge": "/Users/zhouxishun/Desktop/workspace/easywebpack/config/config.local.js",
+    "dynamic": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/egg-static/config/config.default.js",
+    "preload": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/egg-static/config/config.default.js",
+    "buffer": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/egg-static/config/config.default.js",
+    "maxFiles": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/egg-static/config/config.default.js"
+  },
+  "keys": "/Users/zhouxishun/Desktop/workspace/easywebpack/config/config.default.js",
+  "middleware": "/Users/zhouxishun/Desktop/workspace/easywebpack/config/config.default.js",
+  "reactssr": {
+    "layout": "/Users/zhouxishun/Desktop/workspace/easywebpack/config/config.default.js",
+    "injectCss": "/Users/zhouxishun/Desktop/workspace/easywebpack/config/config.local.js",
+    "doctype": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/egg-view-react-ssr/config/config.default.js",
+    "manifest": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/egg-view-react-ssr/config/config.default.js",
+    "injectHeadRegex": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/egg-view-react-ssr/config/config.default.js",
+    "injectBodyRegex": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/egg-view-react-ssr/config/config.default.js",
+    "injectJs": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/egg-view-react-ssr/config/config.default.js",
+    "crossorigin": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/egg-view-react-ssr/config/config.default.js",
+    "injectRes": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/egg-view-react-ssr/config/config.default.js",
+    "mergeLocals": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/egg-view-react-ssr/config/config.default.js",
+    "fallbackToClient": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/egg-view-react-ssr/config/config.default.js",
+    "afterRender": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/egg-view-react-ssr/config/config.default.js"
+  },
+  "development": {
+    "watchDirs": "/Users/zhouxishun/Desktop/workspace/easywebpack/config/config.local.js",
+    "ignoreDirs": "/Users/zhouxishun/Desktop/workspace/easywebpack/config/config.local.js",
+    "fastReady": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/egg-development/config/config.default.js",
+    "reloadOnDebug": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/egg-development/config/config.default.js",
+    "overrideDefault": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/egg-development/config/config.default.js"
+  },
+  "webpack": {
+    "webpackConfigList": "/Users/zhouxishun/Desktop/workspace/easywebpack/config/config.local.js",
+    "port": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/egg-webpack/config/config.default.js",
+    "proxy": {
+      "host": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/egg-webpack/config/config.default.js",
+      "match": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/egg-webpack/config/config.default.js"
+    }
+  },
+  "security": {
+    "domainWhiteList": "/Users/zhouxishun/Desktop/workspace/easywebpack/config/config.local.js",
+    "protocolWhiteList": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/egg-security/config/config.default.js",
+    "defaultMiddleware": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/egg-security/config/config.default.js",
+    "csrf": {
+      "enable": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/egg-security/config/config.default.js",
+      "type": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/egg-security/config/config.default.js",
+      "ignoreJSON": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/egg-security/config/config.default.js",
+      "useSession": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/egg-security/config/config.default.js",
+      "cookieName": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/egg-security/config/config.default.js",
+      "sessionName": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/egg-security/config/config.default.js",
+      "headerName": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/egg-security/config/config.default.js",
+      "bodyName": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/egg-security/config/config.default.js",
+      "queryName": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/egg-security/config/config.default.js",
+      "refererWhiteList": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/egg-security/config/config.default.js"
+    },
+    "xframe": {
+      "enable": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/egg-security/config/config.default.js"
+    },
+    "hsts": {
+      "enable": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/egg-security/config/config.local.js",
+      "maxAge": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/egg-security/config/config.default.js",
+      "includeSubdomains": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/egg-security/config/config.default.js"
+    },
+    "dta": {
+      "enable": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/egg-security/config/config.default.js"
+    },
+    "methodnoallow": {
+      "enable": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/egg-security/config/config.default.js"
+    },
+    "noopen": {
+      "enable": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/egg-security/config/config.default.js"
+    },
+    "nosniff": {
+      "enable": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/egg-security/config/config.default.js"
+    },
+    "referrerPolicy": {
+      "enable": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/egg-security/config/config.default.js"
+    },
+    "xssProtection": {
+      "enable": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/egg-security/config/config.default.js"
+    },
+    "csp": {
+      "enable": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/egg-security/config/config.default.js",
+      "policy": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/egg-security/config/config.default.js"
+    },
+    "ssrf": {
+      "ipBlackList": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/egg-security/config/config.default.js",
+      "checkAddress": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/egg-security/config/config.default.js"
+    }
+  },
+  "session": {
+    "maxAge": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/egg-session/config/config.default.js",
+    "key": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/egg-session/config/config.default.js",
+    "httpOnly": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/egg-session/config/config.default.js",
+    "encrypt": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/egg-session/config/config.default.js"
+  },
+  "helper": {
+    "shtml": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/egg-security/config/config.default.js"
+  },
+  "jsonp": {
+    "limit": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/egg-jsonp/config/config.default.js",
+    "callback": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/egg-jsonp/config/config.default.js",
+    "csrf": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/egg-jsonp/config/config.default.js"
+  },
+  "onerror": {
+    "errorPageUrl": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/egg-onerror/config/config.default.js",
+    "appErrorFilter": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/egg-onerror/config/config.default.js",
+    "templatePath": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/egg-onerror/config/config.default.js"
+  },
+  "i18n": {
+    "defaultLocale": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/egg-i18n/config/config.default.js",
+    "dirs": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/egg-i18n/config/config.default.js",
+    "queryField": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/egg-i18n/config/config.default.js",
+    "cookieField": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/egg-i18n/config/config.default.js",
+    "cookieDomain": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/egg-i18n/config/config.default.js",
+    "cookieMaxAge": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/egg-i18n/config/config.default.js"
+  },
+  "watcher": {
+    "type": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/egg-watcher/config/config.local.js",
+    "eventSources": {
+      "default": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/egg-watcher/config/config.default.js",
+      "development": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/egg-watcher/config/config.default.js"
+    }
+  },
+  "customLogger": {
+    "scheduleLogger": {
+      "consoleLevel": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/egg-schedule/config/config.default.js",
+      "file": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/egg-schedule/config/config.default.js"
+    }
+  },
+  "schedule": {
+    "directory": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/egg-schedule/config/config.default.js"
+  },
+  "multipart": {
+    "mode": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/egg-multipart/config/config.default.js",
+    "autoFields": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/egg-multipart/config/config.default.js",
+    "defaultCharset": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/egg-multipart/config/config.default.js",
+    "fieldNameSize": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/egg-multipart/config/config.default.js",
+    "fieldSize": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/egg-multipart/config/config.default.js",
+    "fields": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/egg-multipart/config/config.default.js",
+    "fileSize": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/egg-multipart/config/config.default.js",
+    "files": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/egg-multipart/config/config.default.js",
+    "fileExtensions": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/egg-multipart/config/config.default.js",
+    "whitelist": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/egg-multipart/config/config.default.js",
+    "tmpdir": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/egg-multipart/config/config.default.js",
+    "cleanSchedule": {
+      "cron": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/egg-multipart/config/config.default.js"
+    }
+  },
+  "logrotator": {
+    "filesRotateByHour": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/egg-logrotator/config/config.default.js",
+    "hourDelimiter": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/egg-logrotator/config/config.default.js",
+    "filesRotateBySize": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/egg-logrotator/config/config.default.js",
+    "maxFileSize": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/egg-logrotator/config/config.default.js",
+    "maxFiles": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/egg-logrotator/config/config.default.js",
+    "rotateDuration": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/egg-logrotator/config/config.default.js",
+    "maxDays": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/egg-logrotator/config/config.default.js"
+  },
+  "view": {
+    "root": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/egg-view/config/config.default.js",
+    "cache": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/egg-view/config/config.local.js",
+    "defaultExtension": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/egg-view/config/config.default.js",
+    "defaultViewEngine": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/egg-view/config/config.default.js",
+    "mapping": {
+      ".js": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/egg-view-react-ssr/config/config.default.js",
+      ".jsx": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/egg-view-react-ssr/config/config.default.js"
+    }
+  },
+  "cors": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/egg-cors/config/config.default.js",
+  "webpackreact": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/egg-webpack-react/config/config.default.js",
+  "env": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/egg/config/config.default.js",
+  "name": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/egg/config/config.default.js",
+  "cookies": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/egg/config/config.default.js",
+  "proxy": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/egg/config/config.default.js",
+  "maxIpsCount": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/egg/config/config.default.js",
+  "maxProxyCount": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/egg/config/config.default.js",
+  "protocolHeaders": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/egg/config/config.default.js",
+  "ipHeaders": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/egg/config/config.default.js",
+  "hostHeaders": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/egg/config/config.default.js",
+  "pkg": {
+    "name": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/egg/config/config.default.js",
+    "version": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/egg/config/config.default.js",
+    "description": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/egg/config/config.default.js",
+    "scripts": {
+      "clean": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/egg/config/config.default.js",
+      "build": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/egg/config/config.default.js",
+      "debug": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/egg/config/config.default.js",
+      "dev": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/egg/config/config.default.js",
+      "start": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/egg/config/config.default.js",
+      "lint": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/egg/config/config.default.js",
+      "fix": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/egg/config/config.default.js",
+      "ii": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/egg/config/config.default.js",
+      "changelog": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/egg/config/config.default.js"
+    },
+    "dependencies": {
+      "antd": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/egg/config/config.default.js",
+      "egg": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/egg/config/config.default.js",
+      "egg-cors": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/egg/config/config.default.js",
+      "egg-logger": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/egg/config/config.default.js",
+      "egg-scripts": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/egg/config/config.default.js",
+      "egg-validate": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/egg/config/config.default.js",
+      "egg-view-react-ssr": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/egg/config/config.default.js",
+      "extend": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/egg/config/config.default.js",
+      "history": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/egg/config/config.default.js",
+      "lodash": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/egg/config/config.default.js",
+      "mockjs": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/egg/config/config.default.js",
+      "moment": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/egg/config/config.default.js",
+      "prop-types": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/egg/config/config.default.js",
+      "querystring": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/egg/config/config.default.js",
+      "react": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/egg/config/config.default.js",
+      "react-dom": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/egg/config/config.default.js",
+      "react-redux": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/egg/config/config.default.js",
+      "react-router": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/egg/config/config.default.js",
+      "react-router-config": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/egg/config/config.default.js",
+      "react-router-dom": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/egg/config/config.default.js",
+      "react-router-redux": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/egg/config/config.default.js",
+      "redux": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/egg/config/config.default.js"
+    },
+    "devDependencies": {
+      "babel-plugin-transform-class-properties": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/egg/config/config.default.js",
+      "conventional-changelog-cli": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/egg/config/config.default.js",
+      "easywebpack-cli": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/egg/config/config.default.js",
+      "easywebpack-react": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/egg/config/config.default.js",
+      "egg-bin": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/egg/config/config.default.js",
+      "egg-webpack": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/egg/config/config.default.js",
+      "egg-webpack-react": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/egg/config/config.default.js",
+      "eslint-config-egg": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/egg/config/config.default.js",
+      "eslint-plugin-react": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/egg/config/config.default.js",
+      "ip": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/egg/config/config.default.js",
+      "less": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/egg/config/config.default.js",
+      "less-loader": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/egg/config/config.default.js"
+    },
+    "engines": {
+      "node": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/egg/config/config.default.js"
+    },
+    "ci": {
+      "version": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/egg/config/config.default.js"
+    },
+    "repository": {
+      "type": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/egg/config/config.default.js",
+      "url": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/egg/config/config.default.js"
+    },
+    "author": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/egg/config/config.default.js",
+    "license": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/egg/config/config.default.js",
+    "homepage": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/egg/config/config.default.js",
+    "webpack": {
+      "loaders": {
+        "less": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/egg/config/config.default.js"
+      }
+    }
+  },
+  "baseDir": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/egg/config/config.default.js",
+  "HOME": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/egg/config/config.default.js",
+  "rundir": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/egg/config/config.default.js",
+  "dump": {
+    "ignore": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/egg/config/config.default.js"
+  },
+  "confusedConfigurations": {
+    "bodyparser": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/egg/config/config.default.js",
+    "notFound": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/egg/config/config.default.js",
+    "sitefile": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/egg/config/config.default.js",
+    "middlewares": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/egg/config/config.default.js",
+    "httpClient": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/egg/config/config.default.js"
+  },
+  "notfound": {
+    "pageUrl": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/egg/config/config.default.js"
+  },
+  "bodyParser": {
+    "enable": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/egg/config/config.default.js",
+    "encoding": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/egg/config/config.default.js",
+    "formLimit": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/egg/config/config.default.js",
+    "jsonLimit": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/egg/config/config.default.js",
+    "textLimit": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/egg/config/config.default.js",
+    "strict": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/egg/config/config.default.js",
+    "queryString": {
+      "arrayLimit": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/egg/config/config.default.js",
+      "depth": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/egg/config/config.default.js",
+      "parameterLimit": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/egg/config/config.default.js"
+    },
+    "onerror": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/egg/config/config.default.js"
+  },
+  "httpclient": {
+    "enableDNSCache": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/egg/config/config.default.js",
+    "dnsCacheLookupInterval": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/egg/config/config.default.js",
+    "dnsCacheMaxLength": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/egg/config/config.default.js",
+    "request": {
+      "timeout": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/egg/config/config.default.js"
+    },
+    "httpAgent": {
+      "keepAlive": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/egg/config/config.default.js",
+      "freeSocketTimeout": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/egg/config/config.default.js",
+      "maxSockets": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/egg/config/config.default.js"
+    },
+    "httpsAgent": {
+      "keepAlive": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/egg/config/config.default.js",
+      "freeSocketTimeout": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/egg/config/config.default.js",
+      "maxSockets": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/egg/config/config.default.js"
+    }
+  },
+  "meta": {
+    "enable": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/egg/config/config.default.js",
+    "logging": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/egg/config/config.default.js"
+  },
+  "coreMiddleware": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/egg/config/config.default.js",
+  "workerStartTimeout": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/egg/config/config.default.js",
+  "serverTimeout": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/egg/config/config.default.js",
+  "cluster": {
+    "listen": {
+      "path": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/egg/config/config.default.js",
+      "port": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/egg/config/config.default.js",
+      "hostname": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/egg/config/config.default.js"
+    }
+  },
+  "clusterClient": {
+    "maxWaitTime": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/egg/config/config.default.js",
+    "responseTimeout": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/egg/config/config.default.js"
+  },
+  "onClientError": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/egg/config/config.default.js"
+}
