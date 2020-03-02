@@ -4,8 +4,8 @@ import { Layout, Row, Col } from 'antd';
 import { renderRoutes } from 'react-router-config';
 import Header from './Header';
 import SideMenu from './SideMenu';
-import '../asset/css/global.css';
-import '../asset/css/app.less';
+import '@/asset/css/global.css';
+import '@/asset/css/app.less';
 
 const sideLayout = { xxl: 4, xl: 5, lg: 5, sm: 0, xs: 0 };
 const contentLayout = { xxl: 20, xl: 19, lg: 19, sm: 24, xs: 24 };

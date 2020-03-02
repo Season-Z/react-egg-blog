@@ -25,3 +25,7 @@ h6,
 .ant-divider-horizontal.ant-divider-with-text-left::before {
   width: 0 !important;
 }
+
+a {
+  text-decoration: none !important;
+}

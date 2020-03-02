@@ -2,7 +2,7 @@ import React from 'react';
 import { Divider, Tag } from 'antd';
 import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
-import { SIDEMENU } from '../utils/config';
+import { SIDEMENU } from '@/utils/config';
 
 function SideMenu(props) {
   const { articleList, tagList } = props;

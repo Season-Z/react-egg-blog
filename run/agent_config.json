@@ -10,13 +10,13 @@
       "domainWhiteList": [
         "http://localhost:9000",
         "http://127.0.0.1:9000",
-        "http://192.168.31.119:9000",
+        "http://10.0.61.168:9000",
         "http://localhost:9001",
         "http://127.0.0.1:9001",
-        "http://192.168.31.119:9001",
+        "http://10.0.61.168:9001",
         "http://localhost:9002",
         "http://127.0.0.1:9002",
-        "http://192.168.31.119:9002"
+        "http://10.0.61.168:9002"
       ],
       "protocolWhiteList": [],
       "defaultMiddleware": "csrf,hsts,methodnoallow,noopen,nosniff,csp,xssProtection,xframe,dta",
@@ -85,7 +85,7 @@
     "onerror": {
       "errorPageUrl": "",
       "appErrorFilter": null,
-      "templatePath": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/egg-onerror/lib/onerror_page.mustache"
+      "templatePath": "/Users/zhouxishun/Desktop/workspace/github/mine/react-egg-blog/node_modules/egg-onerror/lib/onerror_page.mustache"
     },
     "i18n": {
       "defaultLocale": "en_US",
@@ -98,8 +98,8 @@
     "watcher": {
       "type": "development",
       "eventSources": {
-        "default": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/egg-watcher/lib/event-sources/default",
-        "development": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/egg-watcher/lib/event-sources/development"
+        "default": "/Users/zhouxishun/Desktop/workspace/github/mine/react-egg-blog/node_modules/egg-watcher/lib/event-sources/default",
+        "development": "/Users/zhouxishun/Desktop/workspace/github/mine/react-egg-blog/node_modules/egg-watcher/lib/event-sources/development"
       }
     },
     "customLogger": {
@@ -151,7 +151,7 @@
     },
     "static": {
       "prefix": "/public/",
-      "dir": "/Users/zhouxishun/Desktop/workspace/easywebpack/public",
+      "dir": "/Users/zhouxishun/Desktop/workspace/github/mine/react-egg-blog/public",
       "dynamic": true,
       "preload": false,
       "buffer": false,
@@ -159,7 +159,7 @@
       "maxAge": 0
     },
     "view": {
-      "root": "/Users/zhouxishun/Desktop/workspace/easywebpack/app/view",
+      "root": "/Users/zhouxishun/Desktop/workspace/github/mine/react-egg-blog/app/view",
       "cache": false,
       "defaultExtension": ".html",
       "defaultViewEngine": "",
@@ -170,8 +170,8 @@
     },
     "reactssr": {
       "doctype": "<!doctype html>",
-      "layout": "/Users/zhouxishun/Desktop/workspace/easywebpack/app/web/view/layout.html",
-      "manifest": "/Users/zhouxishun/Desktop/workspace/easywebpack/config/manifest.json",
+      "layout": "/Users/zhouxishun/Desktop/workspace/github/mine/react-egg-blog/app/web/view/layout.html",
+      "manifest": "/Users/zhouxishun/Desktop/workspace/github/mine/react-egg-blog/config/manifest.json",
       "injectHeadRegex": "/(<\\/head>)/i",
       "injectBodyRegex": "/(<\\/body>)/i",
       "injectCss": true,
@@ -191,25 +191,25 @@
       },
       "webpackConfigList": [
         {
-          "context": "/Users/zhouxishun/Desktop/workspace/easywebpack",
+          "context": "/Users/zhouxishun/Desktop/workspace/github/mine/react-egg-blog",
           "entry": {
             "login": [
               "react-hot-loader/patch",
-              "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/webpack-hot-middleware/client?path=http://192.168.31.119:9000/__webpack_hmr&noInfo=false&reload=false&quiet=false",
-              "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/easywebpack/utils/hot.js",
-              "babel-loader?{\"cacheDirectory\":\"/var/folders/f7/8gjs32hx4zdf6tm89xszjfy80000gn/T/easywebpack/easywebpack/dev/cache/client/babel-loader\"}!react-entry-template-loader?templateFile=,renderMode=ssr!/Users/zhouxishun/Desktop/workspace/easywebpack/app/web/page/login/index.jsx"
+              "/Users/zhouxishun/Desktop/workspace/github/mine/react-egg-blog/node_modules/webpack-hot-middleware/client?path=http://10.0.61.168:9000/__webpack_hmr&noInfo=false&reload=false&quiet=false",
+              "/Users/zhouxishun/Desktop/workspace/github/mine/react-egg-blog/node_modules/easywebpack/utils/hot.js",
+              "babel-loader?{\"cacheDirectory\":\"/var/folders/f7/8gjs32hx4zdf6tm89xszjfy80000gn/T/easywebpack/easywebpack/dev/cache/client/babel-loader\"}!react-entry-template-loader?templateFile=,renderMode=ssr!/Users/zhouxishun/Desktop/workspace/github/mine/react-egg-blog/app/web/page/login/index.jsx"
             ],
             "admin": [
               "react-hot-loader/patch",
-              "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/webpack-hot-middleware/client?path=http://192.168.31.119:9000/__webpack_hmr&noInfo=false&reload=false&quiet=false",
-              "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/easywebpack/utils/hot.js",
-              "babel-loader?{\"cacheDirectory\":\"/var/folders/f7/8gjs32hx4zdf6tm89xszjfy80000gn/T/easywebpack/easywebpack/dev/cache/client/babel-loader\"}!react-entry-template-loader?templateFile=,renderMode=ssr!/Users/zhouxishun/Desktop/workspace/easywebpack/app/web/page/admin/index.jsx"
+              "/Users/zhouxishun/Desktop/workspace/github/mine/react-egg-blog/node_modules/webpack-hot-middleware/client?path=http://10.0.61.168:9000/__webpack_hmr&noInfo=false&reload=false&quiet=false",
+              "/Users/zhouxishun/Desktop/workspace/github/mine/react-egg-blog/node_modules/easywebpack/utils/hot.js",
+              "babel-loader?{\"cacheDirectory\":\"/var/folders/f7/8gjs32hx4zdf6tm89xszjfy80000gn/T/easywebpack/easywebpack/dev/cache/client/babel-loader\"}!react-entry-template-loader?templateFile=,renderMode=ssr!/Users/zhouxishun/Desktop/workspace/github/mine/react-egg-blog/app/web/page/admin/index.jsx"
             ]
           },
           "output": {
             "filename": "js/[name].js",
             "chunkFilename": "js/chunk/[name].js",
-            "path": "/Users/zhouxishun/Desktop/workspace/easywebpack/public",
+            "path": "/Users/zhouxishun/Desktop/workspace/github/mine/react-egg-blog/public",
             "publicPath": "/public/"
           },
           "resolve": {
@@ -219,21 +219,22 @@
             ],
             "alias": {
               "react-dom": "@hot-loader/react-dom",
-              "asset": "/Users/zhouxishun/Desktop/workspace/easywebpack/app/web/asset",
-              "component": "/Users/zhouxishun/Desktop/workspace/easywebpack/app/web/component",
-              "framework": "app/web/framework"
+              "asset": "/Users/zhouxishun/Desktop/workspace/github/mine/react-egg-blog/app/web/asset",
+              "component": "/Users/zhouxishun/Desktop/workspace/github/mine/react-egg-blog/app/web/component",
+              "framework": "app/web/framework",
+              "@": "/Users/zhouxishun/Desktop/workspace/github/mine/react-egg-blog/app/web"
             }
           },
           "externals": [],
           "resolveLoader": {
             "modules": [
-              "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules",
-              "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/easywebpack/lib/node_modules",
-              "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/easywebpack-react/node_modules"
+              "/Users/zhouxishun/Desktop/workspace/github/mine/react-egg-blog/node_modules",
+              "/Users/zhouxishun/Desktop/workspace/github/mine/react-egg-blog/node_modules/easywebpack/lib/node_modules",
+              "/Users/zhouxishun/Desktop/workspace/github/mine/react-egg-blog/node_modules/easywebpack-react/node_modules"
             ]
           },
           "mode": "development",
-          "devtool": "eval",
+          "devtool": "eval-source-map",
           "target": "web",
           "node": {
             "console": true,
@@ -261,7 +262,7 @@
               {
                 "test": {},
                 "use": [
-                  "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/mini-css-extract-plugin/dist/loader.js",
+                  "/Users/zhouxishun/Desktop/workspace/github/mine/react-egg-blog/node_modules/mini-css-extract-plugin/dist/loader.js",
                   {
                     "options": {
                       "sourceMap": true
@@ -274,7 +275,7 @@
                       "sourceMap": true,
                       "ident": "postcss",
                       "config": {
-                        "path": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/easywebpack/config"
+                        "path": "/Users/zhouxishun/Desktop/workspace/github/mine/react-egg-blog/node_modules/easywebpack/config"
                       }
                     }
                   }
@@ -286,7 +287,7 @@
               {
                 "test": {},
                 "use": [
-                  "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/mini-css-extract-plugin/dist/loader.js",
+                  "/Users/zhouxishun/Desktop/workspace/github/mine/react-egg-blog/node_modules/mini-css-extract-plugin/dist/loader.js",
                   {
                     "options": {
                       "sourceMap": true
@@ -299,7 +300,7 @@
                       "sourceMap": true,
                       "ident": "postcss",
                       "config": {
-                        "path": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/easywebpack/config"
+                        "path": "/Users/zhouxishun/Desktop/workspace/github/mine/react-egg-blog/node_modules/easywebpack/config"
                       }
                     }
                   },
@@ -353,7 +354,7 @@
               {
                 "test": "~config~webpack~webpackConfigList~0~module~rules~1~exclude~0",
                 "use": [
-                  "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/mini-css-extract-plugin/dist/loader.js",
+                  "/Users/zhouxishun/Desktop/workspace/github/mine/react-egg-blog/node_modules/mini-css-extract-plugin/dist/loader.js",
                   {
                     "options": {
                       "sourceMap": true,
@@ -368,7 +369,7 @@
                       "sourceMap": true,
                       "ident": "postcss",
                       "config": {
-                        "path": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/easywebpack/config"
+                        "path": "/Users/zhouxishun/Desktop/workspace/github/mine/react-egg-blog/node_modules/easywebpack/config"
                       }
                     }
                   }
@@ -380,7 +381,7 @@
               {
                 "test": "~config~webpack~webpackConfigList~0~module~rules~2~exclude~0",
                 "use": [
-                  "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/mini-css-extract-plugin/dist/loader.js",
+                  "/Users/zhouxishun/Desktop/workspace/github/mine/react-egg-blog/node_modules/mini-css-extract-plugin/dist/loader.js",
                   {
                     "options": {
                       "sourceMap": true,
@@ -395,7 +396,7 @@
                       "sourceMap": true,
                       "ident": "postcss",
                       "config": {
-                        "path": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/easywebpack/config"
+                        "path": "/Users/zhouxishun/Desktop/workspace/github/mine/react-egg-blog/node_modules/easywebpack/config"
                       }
                     }
                   },
@@ -436,7 +437,7 @@
                 "EASY_ENV_IS_NODE": false,
                 "EASY_ENV_LOCAL_PUBLIC_PATH": "\"/public/\"",
                 "EASY_ENV_PUBLIC_PATH": "\"/public/\"",
-                "EASY_ENV_HOST_URL": "\"http://192.168.31.119:9000\""
+                "EASY_ENV_HOST_URL": "\"http://10.0.61.168:9000\""
               },
               "__plugin__": "DefinePlugin",
               "__lable__": "define"
@@ -459,14 +460,14 @@
                 "map": null,
                 "generate": null,
                 "sort": null,
-                "baseDir": "/Users/zhouxishun/Desktop/workspace/easywebpack",
-                "host": "http://192.168.31.119:9000",
+                "baseDir": "/Users/zhouxishun/Desktop/workspace/github/mine/react-egg-blog",
+                "host": "http://10.0.61.168:9000",
                 "proxy": true,
-                "buildPath": "/Users/zhouxishun/Desktop/workspace/easywebpack/public",
+                "buildPath": "/Users/zhouxishun/Desktop/workspace/github/mine/react-egg-blog/public",
                 "publicPath": "/public/",
                 "localPublicPath": "/public/",
                 "assets": false,
-                "filepath": "/Users/zhouxishun/Desktop/workspace/easywebpack/config/manifest.json"
+                "filepath": "/Users/zhouxishun/Desktop/workspace/github/mine/react-egg-blog/config/manifest.json"
               },
               "isRunned": false,
               "__plugin__": "webpack-manifest-resource-plugin",
@@ -538,15 +539,15 @@
           }
         },
         {
-          "context": "/Users/zhouxishun/Desktop/workspace/easywebpack",
+          "context": "/Users/zhouxishun/Desktop/workspace/github/mine/react-egg-blog",
           "entry": {
-            "login": "babel-loader?{\"cacheDirectory\":\"/var/folders/f7/8gjs32hx4zdf6tm89xszjfy80000gn/T/easywebpack/easywebpack/dev/cache/server/babel-loader\"}!react-entry-template-loader?templateFile=,renderMode=ssr!/Users/zhouxishun/Desktop/workspace/easywebpack/app/web/page/login/index.jsx",
-            "admin": "babel-loader?{\"cacheDirectory\":\"/var/folders/f7/8gjs32hx4zdf6tm89xszjfy80000gn/T/easywebpack/easywebpack/dev/cache/server/babel-loader\"}!react-entry-template-loader?templateFile=,renderMode=ssr!/Users/zhouxishun/Desktop/workspace/easywebpack/app/web/page/admin/index.jsx"
+            "login": "babel-loader?{\"cacheDirectory\":\"/var/folders/f7/8gjs32hx4zdf6tm89xszjfy80000gn/T/easywebpack/easywebpack/dev/cache/server/babel-loader\"}!react-entry-template-loader?templateFile=,renderMode=ssr!/Users/zhouxishun/Desktop/workspace/github/mine/react-egg-blog/app/web/page/login/index.jsx",
+            "admin": "babel-loader?{\"cacheDirectory\":\"/var/folders/f7/8gjs32hx4zdf6tm89xszjfy80000gn/T/easywebpack/easywebpack/dev/cache/server/babel-loader\"}!react-entry-template-loader?templateFile=,renderMode=ssr!/Users/zhouxishun/Desktop/workspace/github/mine/react-egg-blog/app/web/page/admin/index.jsx"
           },
           "output": {
             "libraryTarget": "commonjs",
             "filename": "[name].js",
-            "path": "/Users/zhouxishun/Desktop/workspace/easywebpack/app/view",
+            "path": "/Users/zhouxishun/Desktop/workspace/github/mine/react-egg-blog/app/view",
             "publicPath": "/public/"
           },
           "resolve": {
@@ -555,9 +556,10 @@
               ".js"
             ],
             "alias": {
-              "asset": "/Users/zhouxishun/Desktop/workspace/easywebpack/app/web/asset",
-              "component": "/Users/zhouxishun/Desktop/workspace/easywebpack/app/web/component",
-              "framework": "app/web/framework"
+              "asset": "/Users/zhouxishun/Desktop/workspace/github/mine/react-egg-blog/app/web/asset",
+              "component": "/Users/zhouxishun/Desktop/workspace/github/mine/react-egg-blog/app/web/component",
+              "framework": "app/web/framework",
+              "@": "/Users/zhouxishun/Desktop/workspace/github/mine/react-egg-blog/app/web"
             }
           },
           "externals": [
@@ -565,13 +567,13 @@
           ],
           "resolveLoader": {
             "modules": [
-              "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules",
-              "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/easywebpack/lib/node_modules",
-              "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/easywebpack-react/node_modules"
+              "/Users/zhouxishun/Desktop/workspace/github/mine/react-egg-blog/node_modules",
+              "/Users/zhouxishun/Desktop/workspace/github/mine/react-egg-blog/node_modules/easywebpack/lib/node_modules",
+              "/Users/zhouxishun/Desktop/workspace/github/mine/react-egg-blog/node_modules/easywebpack-react/node_modules"
             ]
           },
           "mode": "development",
-          "devtool": "eval",
+          "devtool": "eval-source-map",
           "target": "node",
           "node": {
             "__filename": false,
@@ -613,7 +615,7 @@
                     "options": {
                       "ident": "postcss",
                       "config": {
-                        "path": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/easywebpack/config"
+                        "path": "/Users/zhouxishun/Desktop/workspace/github/mine/react-egg-blog/node_modules/easywebpack/config"
                       }
                     }
                   }
@@ -635,7 +637,7 @@
                     "options": {
                       "ident": "postcss",
                       "config": {
-                        "path": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/easywebpack/config"
+                        "path": "/Users/zhouxishun/Desktop/workspace/github/mine/react-egg-blog/node_modules/easywebpack/config"
                       }
                     }
                   },
@@ -703,7 +705,7 @@
                     "options": {
                       "ident": "postcss",
                       "config": {
-                        "path": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/easywebpack/config"
+                        "path": "/Users/zhouxishun/Desktop/workspace/github/mine/react-egg-blog/node_modules/easywebpack/config"
                       }
                     }
                   }
@@ -731,7 +733,7 @@
                     "options": {
                       "ident": "postcss",
                       "config": {
-                        "path": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/easywebpack/config"
+                        "path": "/Users/zhouxishun/Desktop/workspace/github/mine/react-egg-blog/node_modules/easywebpack/config"
                       }
                     }
                   },
@@ -763,7 +765,7 @@
                 "EASY_ENV_IS_NODE": true,
                 "EASY_ENV_LOCAL_PUBLIC_PATH": "\"/public/\"",
                 "EASY_ENV_PUBLIC_PATH": "\"/public/\"",
-                "EASY_ENV_HOST_URL": "\"http://192.168.31.119:9000\""
+                "EASY_ENV_HOST_URL": "\"http://10.0.61.168:9000\""
               },
               "__plugin__": "DefinePlugin",
               "__lable__": "define"
@@ -888,9 +890,9 @@
         }
       }
     },
-    "baseDir": "/Users/zhouxishun/Desktop/workspace/easywebpack",
+    "baseDir": "/Users/zhouxishun/Desktop/workspace/github/mine/react-egg-blog",
     "HOME": "/Users/zhouxishun",
-    "rundir": "/Users/zhouxishun/Desktop/workspace/easywebpack/run",
+    "rundir": "/Users/zhouxishun/Desktop/workspace/github/mine/react-egg-blog/run",
     "dump": {
       "ignore": "<Set>"
     },
@@ -922,7 +924,7 @@
       "onerror": "<Function onerror>"
     },
     "logger": {
-      "dir": "/Users/zhouxishun/Desktop/workspace/easywebpack/logs",
+      "dir": "/Users/zhouxishun/Desktop/workspace/github/mine/react-egg-blog/logs",
       "encoding": "utf8",
       "env": "local",
       "level": "INFO",
@@ -1000,8 +1002,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/egg/config/plugin.js",
-      "path": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/egg-session",
+      "from": "/Users/zhouxishun/Desktop/workspace/github/mine/react-egg-blog/node_modules/egg/config/plugin.js",
+      "path": "/Users/zhouxishun/Desktop/workspace/github/mine/react-egg-blog/node_modules/egg-session",
       "version": "3.1.0"
     },
     "security": {
@@ -1013,8 +1015,8 @@
         "session"
       ],
       "env": [],
-      "from": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/egg/config/plugin.js",
-      "path": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/egg-security",
+      "from": "/Users/zhouxishun/Desktop/workspace/github/mine/react-egg-blog/node_modules/egg/config/plugin.js",
+      "path": "/Users/zhouxishun/Desktop/workspace/github/mine/react-egg-blog/node_modules/egg-security",
       "version": "2.7.1"
     },
     "jsonp": {
@@ -1026,8 +1028,8 @@
         "security"
       ],
       "env": [],
-      "from": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/egg/config/plugin.js",
-      "path": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/egg-jsonp",
+      "from": "/Users/zhouxishun/Desktop/workspace/github/mine/react-egg-blog/node_modules/egg/config/plugin.js",
+      "path": "/Users/zhouxishun/Desktop/workspace/github/mine/react-egg-blog/node_modules/egg-jsonp",
       "version": "2.0.0"
     },
     "onerror": {
@@ -1039,8 +1041,8 @@
         "jsonp"
       ],
       "env": [],
-      "from": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/egg/config/plugin.js",
-      "path": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/egg-onerror",
+      "from": "/Users/zhouxishun/Desktop/workspace/github/mine/react-egg-blog/node_modules/egg/config/plugin.js",
+      "path": "/Users/zhouxishun/Desktop/workspace/github/mine/react-egg-blog/node_modules/egg-onerror",
       "version": "2.1.0"
     },
     "i18n": {
@@ -1050,8 +1052,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/egg/config/plugin.js",
-      "path": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/egg-i18n",
+      "from": "/Users/zhouxishun/Desktop/workspace/github/mine/react-egg-blog/node_modules/egg/config/plugin.js",
+      "path": "/Users/zhouxishun/Desktop/workspace/github/mine/react-egg-blog/node_modules/egg-i18n",
       "version": "2.1.1"
     },
     "watcher": {
@@ -1061,8 +1063,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/egg/config/plugin.js",
-      "path": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/egg-watcher",
+      "from": "/Users/zhouxishun/Desktop/workspace/github/mine/react-egg-blog/node_modules/egg/config/plugin.js",
+      "path": "/Users/zhouxishun/Desktop/workspace/github/mine/react-egg-blog/node_modules/egg-watcher",
       "version": "3.1.0"
     },
     "schedule": {
@@ -1072,8 +1074,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/egg/config/plugin.js",
-      "path": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/egg-schedule",
+      "from": "/Users/zhouxishun/Desktop/workspace/github/mine/react-egg-blog/node_modules/egg/config/plugin.js",
+      "path": "/Users/zhouxishun/Desktop/workspace/github/mine/react-egg-blog/node_modules/egg-schedule",
       "version": "3.6.4"
     },
     "multipart": {
@@ -1085,8 +1087,8 @@
         "schedule"
       ],
       "env": [],
-      "from": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/egg/config/plugin.js",
-      "path": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/egg-multipart",
+      "from": "/Users/zhouxishun/Desktop/workspace/github/mine/react-egg-blog/node_modules/egg/config/plugin.js",
+      "path": "/Users/zhouxishun/Desktop/workspace/github/mine/react-egg-blog/node_modules/egg-multipart",
       "version": "2.10.1"
     },
     "development": {
@@ -1100,8 +1102,8 @@
       "env": [
         "local"
       ],
-      "from": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/egg/config/plugin.js",
-      "path": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/egg-development",
+      "from": "/Users/zhouxishun/Desktop/workspace/github/mine/react-egg-blog/node_modules/egg/config/plugin.js",
+      "path": "/Users/zhouxishun/Desktop/workspace/github/mine/react-egg-blog/node_modules/egg-development",
       "version": "2.4.3"
     },
     "logrotator": {
@@ -1113,8 +1115,8 @@
       ],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/egg/config/plugin.js",
-      "path": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/egg-logrotator",
+      "from": "/Users/zhouxishun/Desktop/workspace/github/mine/react-egg-blog/node_modules/egg/config/plugin.js",
+      "path": "/Users/zhouxishun/Desktop/workspace/github/mine/react-egg-blog/node_modules/egg-logrotator",
       "version": "3.1.0"
     },
     "static": {
@@ -1124,8 +1126,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/zhouxishun/Desktop/workspace/easywebpack/config/plugin.js",
-      "path": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/egg-static",
+      "from": "/Users/zhouxishun/Desktop/workspace/github/mine/react-egg-blog/config/plugin.js",
+      "path": "/Users/zhouxishun/Desktop/workspace/github/mine/react-egg-blog/node_modules/egg-static",
       "version": "2.2.0"
     },
     "view": {
@@ -1135,8 +1137,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/egg/config/plugin.js",
-      "path": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/egg-view",
+      "from": "/Users/zhouxishun/Desktop/workspace/github/mine/react-egg-blog/node_modules/egg/config/plugin.js",
+      "path": "/Users/zhouxishun/Desktop/workspace/github/mine/react-egg-blog/node_modules/egg-view",
       "version": "2.1.2"
     },
     "reactssr": {
@@ -1146,8 +1148,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/zhouxishun/Desktop/workspace/easywebpack/config/plugin.js",
-      "path": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/egg-view-react-ssr",
+      "from": "/Users/zhouxishun/Desktop/workspace/github/mine/react-egg-blog/config/plugin.js",
+      "path": "/Users/zhouxishun/Desktop/workspace/github/mine/react-egg-blog/node_modules/egg-view-react-ssr",
       "version": "3.0.0"
     },
     "cors": {
@@ -1157,8 +1159,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/zhouxishun/Desktop/workspace/easywebpack/config/plugin.local.js",
-      "path": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/egg-cors",
+      "from": "/Users/zhouxishun/Desktop/workspace/github/mine/react-egg-blog/config/plugin.local.js",
+      "path": "/Users/zhouxishun/Desktop/workspace/github/mine/react-egg-blog/node_modules/egg-cors",
       "version": "2.2.3"
     },
     "webpack": {
@@ -1170,8 +1172,8 @@
       "env": [
         "local"
       ],
-      "from": "/Users/zhouxishun/Desktop/workspace/easywebpack/config/plugin.local.js",
-      "path": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/egg-webpack",
+      "from": "/Users/zhouxishun/Desktop/workspace/github/mine/react-egg-blog/config/plugin.local.js",
+      "path": "/Users/zhouxishun/Desktop/workspace/github/mine/react-egg-blog/node_modules/egg-webpack",
       "version": "4.5.2"
     },
     "webpackreact": {
@@ -1183,8 +1185,8 @@
       "env": [
         "local"
       ],
-      "from": "/Users/zhouxishun/Desktop/workspace/easywebpack/config/plugin.local.js",
-      "path": "/Users/zhouxishun/Desktop/workspace/easywebpack/node_modules/egg-webpack-react",
+      "from": "/Users/zhouxishun/Desktop/workspace/github/mine/react-egg-blog/config/plugin.local.js",
+      "path": "/Users/zhouxishun/Desktop/workspace/github/mine/react-egg-blog/node_modules/egg-webpack-react",
       "version": "3.0.0"
     }
   }
