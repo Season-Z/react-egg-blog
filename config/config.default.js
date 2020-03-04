@@ -27,5 +27,12 @@ module.exports = app => {
     layout: path.join(app.baseDir, 'app/web/view/layout.html')
   };
 
+  exports.mongoose = {
+    url: process.env.EGG_MONGODB_URL || 'mongodb://39.98.140.218:27017/my_blob',
+    options: {
+      useNewUrlParser: true
+    }
+  };
+
   return exports;
 };

@@ -1,4 +1,3 @@
-
 module.exports = app => {
   return class AdminController extends app.Controller {
     async login() {
@@ -7,12 +6,12 @@ module.exports = app => {
     }
 
     async render(ctx) {
-      const list = ctx.service.article.getList(); 
+      const list = ctx.service.article.getList();
       if (ctx.query.mode === 'ssr') {
-        await ctx.render('admin.js', { url: ctx.url, list });
+        await ctx.render('home.js', { url: ctx.url, list });
       } else {
-        await ctx.renderClient('admin.js', { url: ctx.url, list });
-      } 
+        await ctx.renderClient('home.js', { url: ctx.url, list });
+      }
     }
   };
 };

@@ -3,7 +3,7 @@ const path = require('path');
 module.exports = {
   entry: {
     login: 'app/web/page/login/index.jsx',
-    admin: 'app/web/page/admin/index.jsx'
+    home: 'app/web/page/home/index.jsx'
   },
   resolve: {
     alias: {

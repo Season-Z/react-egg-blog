@@ -1,5 +1,6 @@
-
 module.exports = app => {
-  app.get('/login', app.controller.admin.login);
-  app.get('/(.*?)', app.controller.admin.render);
+  require('./router/index')(app);
+
+  app.get('/login', app.controller.home.login);
+  app.get('/(.*?)', app.controller.home.render);
 };

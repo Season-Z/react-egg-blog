@@ -3,12 +3,12 @@ import { Provider } from 'react-redux';
 import { BrowserRouter, StaticRouter } from 'react-router-dom';
 import { renderRoutes } from 'react-router-config';
 import { create } from './store';
-import Wrapper from '../../component/wrapper';
-import routes from '../../routes';
+import Wrapper from '@/component/wrapper';
+import routes from '@/routes';
 
 import './index.css';
 
-export default class Admin extends Component {
+export default class Home extends Component {
   state = {
     collapsed: false
   };

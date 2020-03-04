@@ -1,3 +1,4 @@
 import webRoutes from './web';
+import adminRoutes from './admin';
 
-export default [...webRoutes];
+export default [...adminRoutes, ...webRoutes];
