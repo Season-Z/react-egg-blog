@@ -2,7 +2,8 @@ import React, { lazy, Suspense } from 'react';
 import { Redirect } from 'react-router-dom';
 import { Spin, Icon } from 'antd';
 import Layout from '@/layout/admin';
-import Article from '@/adminPage/article';
+
+const Article = lazy(() => import('@/page/admin/article'));
 
 const Loading = (
   <Spin indicator={<Icon type='loading' style={{ fontSize: 25 }} />} />

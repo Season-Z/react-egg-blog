@@ -4,9 +4,8 @@ import { message, notification } from 'antd';
 
 const resCode = {
   10000: '请重新登录',
-  1000002: '当前未登录，请重新登录',
-  1000003: '密码错误',
-  1000005: '该用户未激活，无法登陆'
+  10002: '当前未登录，请重新登录',
+  10003: '服务端错误'
 };
 
 const instance = axios.create({
@@ -31,31 +30,22 @@ instance.interceptors.request.use(
 
 instance.interceptors.response.use(
   response => {
-    const { success, message, code, userInfo } = response.data;
-    if (!success) {
-      notification.error({
-        message: '请求错误',
-        description: (code && resCode[code]) || message
-      });
-      if (code === 10000) {
-        setTimeout(() => window.location.replace('/login'), 500);
-      }
+    const { data, status } = response;
 
-      return Promise.reject(response.data);
+    if (200 < status < 300) {
+      return data;
     }
 
-    // if (userInfo && Object.keys(userInfo).length) {
-    //   storage.setItem('userInfo', userInfo);
-    // }
+    notification.error({
+      message: '请求错误',
+      description: (code && resCode[code]) || message
+    });
 
-    return response.data;
+    return Promise.reject(response.data);
   },
   err => {
-    const msg = err.response ? err.response.data.message : '';
-
     notification.error({
-      message: '接口请求失败',
-      description: msg || '服务器出了点小问题，请稍后再试！'
+      message: '接口请求失败'
     });
 
     return Promise.reject(err);

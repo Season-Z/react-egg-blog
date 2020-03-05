@@ -6,11 +6,10 @@ module.exports = app => {
     }
 
     async render(ctx) {
-      const list = ctx.service.article.getList();
       if (ctx.query.mode === 'ssr') {
-        await ctx.render('home.js', { url: ctx.url, list });
+        await ctx.render('home.js', { url: ctx.url });
       } else {
-        await ctx.renderClient('home.js', { url: ctx.url, list });
+        await ctx.renderClient('home.js', { url: ctx.url });
       }
     }
   };
